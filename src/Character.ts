@@ -100,9 +100,3 @@ export default class Character implements Fighter {
     return this._lifePoints;
   }
 }
-
-const caracter1 = new Character('Guilherme');
-console.log(caracter1.defense);
-console.log(caracter1.lifePoints);
-caracter1.receiveDamage(10);
-console.log(caracter1.lifePoints);
